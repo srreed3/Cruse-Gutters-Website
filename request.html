@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cruse Gutters</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <section class="links">
+        <ul class="link-container">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="request.html">Contact Us</a></li>
+            <li><a href="product.html">Product List</a></li>
+        </ul>
+    </section>
+
+    <section>  
+        <h1>Cruse Gutters and Repairs: Contact Us</h1>
+        <p class="saying">"Call for a job done right!"</p>
+    </section>
+
+    <div class="border">
+        <h2 class="sub">Service Request (Residential Only):</h2>
+    <section class="request">
+        <span class="box"><b>Check all that apply:</b></span>
+        <div class="checkbox-container">
+            <input type="checkbox" name="request" id="replace" value="replace">
+            <label for="replace">Replace</label>
+
+            <input type="checkbox" name="repair" id="repair" value="repair">
+            <label for="repair">Repair</label>
+
+            <input type="checkbox" name="request" id="removal" value="removal">
+            <label for="removal">Removal</label>
+
+            <input type="checkbox" name="request" id="cleanout" value="cleanout">
+            <label for=cleanout>Cleanout</label>
+
+            <input type="checkbox" name="request" id="gutter guards" value="gutter guards">
+            <label for="gutter guards">Gutter Guards</label>
+
+            <input type="checkbox" name="request" id="unknown" value="unknown">
+            <label for="unknown">Unknown</label>
+        </div>
+    </section>
+  
+    <br>
+    <section class="hometype">
+        <span class="box"><b>Home Type:</b></span>
+        <div class="hometype-container">
+            <input type="checkbox" name="home type" id="house" value="house">
+            <label for="house">House</label>
+
+            <input type="checkbox" name="home type" id="apartment" value="apartment">
+            <label for="apartment">Apartment</label>
+            
+            <input type="checkbox" name="home type" id="townhome" value="townhome">
+            <label for="townhome">Townhome</label>
+           
+            <input type="checkbox" name="home type" id="ranch" value="ranch">
+            <label for="ranch">Ranch</label>
+           
+            <input type="checkbox" name="home type" id="mobile home" value="mobile home">
+            <label for="mobile home">Mobile Home</label>
+           
+            <input type="checkbox" name="home type" id="other" value="other">
+            <label for="other">Other</label>
+        </div>
+    </section>
+
+    <br>  
+    <section class="newconstruction">
+        <span class="box"><b>New Construction?</b></span>
+        <input type="radio" name="new construction" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="new construction" id="no" value="yes">
+        <label for="no">No</label>
+    </section>
+
+    <br>  
+    <section class="stories">
+        <span class="box"><b>How Many Stories?</b></span>
+        <input type="radio" name="stories" id="1" value="1">
+        <label for="1">1</label>
+        <input type="radio" name="stories" id="2" value="2">
+        <label for="2">2</label>
+        <input type="radio" name="stories" id="3" value="3">
+        <label for="3">3</label>
+    </section>
+
+    <br>
+    <section class="color-selection">
+    <label for="color-selection" class="box"><b>What Color?</b></label>
+        <select id="color" name="color">
+            <option value=""></option>
+            <option value="white">White</option>
+            <option value="black">Black</option>
+            <option value="royal brown">Royal Brown</option>
+            <option value="cream">Cream</option>
+            <option value="Unknown">Unknown</option>
+            <option value="n/a">N/A</option>
+        </select>
+    </section>
+  
+    <br>
+    <section>
+        <label for="request" class="box"><b>Please describe your request or issue in detail along with your name, number, and address:</b></label>
+        <br>
+        <textarea id="request" name="request" rows="10" cols="115" required>
+        </textarea>
+    </section>
+    </div>
+
+
+    <br>
+    <section class="submission">
+        <form method="post" action="mailto:rosereed1212@gmail.com">
+        <input type="submit" value="Send Email"/>
+    </section>
+      
+
+</body>
+</html>
+

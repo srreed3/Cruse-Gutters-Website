@@ -1,0 +1,204 @@
+body {
+    background-color: #6C6E6E;
+    color: #DFDDDD;
+    padding: 20px;
+}
+
+
+.links {
+    background-color: #FF7727;
+}
+.link-container {
+    list-style-type: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.link-container li {
+    margin-right: 200px;
+    padding: 20px;
+}
+
+
+.link-container a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.link-container a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+.link-container li:last-child {
+    margin-right: 0;
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+.saying {
+    text-align: center;
+    font-size: 19px;
+}
+
+
+h2 {
+    background-color: #FF7727;
+    width:50%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.box1 {
+    border: 2px solid #4CEDED;
+    padding: 10px;
+    width: 50%;
+}
+
+
+.box2 {
+    border: 2px solid #4CEDED;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+
+.box3 {
+    border: 2px solid #4CEDED;
+    padding: 10px;
+    width: 50%;
+}
+
+
+img {
+    width: 25%;
+    border: 5px double #4CEDED;
+}
+
+
+.photo1 {
+    float: right;
+    margin-top: -320px;
+    position: relative;
+}
+
+
+.photo2 {
+    float: right;
+    position: absolute;
+    right: 440px;
+    top: 360px;
+    z-index: 1;
+    width: 23%;
+}
+
+
+.photo3 {
+    float: right;
+    margin-top: -220px;
+    width: 20%;
+    position: absolute;
+    left: 1445px;
+}
+
+
+.product {
+    font-size: 25px;
+    background-color: #FF7727;
+    width:50%;
+    color: white;
+    border-radius: 10px;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+
+span, label, input {
+    font-size: 18px;
+}
+
+
+.box {
+    font-size: 18px;
+}
+
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.checkbox-container input[type="checkbox"] {
+    margin-left: 20px;
+}
+
+
+.hometype-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.hometype-container input[type="checkbox"] {
+    margin-left: 20px;
+}
+
+
+.border {
+    border: 2px solid #4CEDED;
+    width: 50%;
+    padding: 20px;
+}
+
+
+.sub {
+    margin-bottom: 25px;;
+}
+
+
+.visit {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.visit:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+.product_headers {
+    list-style-type: none;
+    font-size: 22px;
+}
+
+
+.product_info {
+    margin-left: 20px;
+}
+
+
+
